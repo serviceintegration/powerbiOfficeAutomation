@@ -2,7 +2,7 @@
 <html lang="pt">
 
 <head>
-    <title>TIM OFFICE AUTOMATION - Power BI</title>
+    <title>BODYTECH - Power BI</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -39,7 +39,7 @@
         <nav class="navbar navbar-expand justify-content-between fixed-top">
             <a class="navbar-brand mb-0 h1 d-none d-md-block" href="../index.html" style="font-weight: bold;">
                 <img src="../demo/img/logo.png" class="navbar-brand-image d-inline-block align-top mr-2" alt="">
-                TIM - OFFICE AUTOMATION
+                BODYTECH
             </a>
 
 
@@ -48,7 +48,7 @@
                     <div class="input-group-prepend">
                     </div>
                     <span class="navbar-brand mb-0 h1 d-none d-md-block" style="font-weight: bold;">
-                        Consulta de Status
+                        Relatório de Backlog
                     </span>
                 </div>
             </form>
@@ -63,7 +63,7 @@
             <ul class="navbar-nav d-flex justify-content-end mr-2">
 
 
-               <li class="nav-item dropdown">
+                <li class="nav-item dropdown">
                     <a class="nav-link avatar-with-name" id="navbarDropdownMenuLink" data-toggle="dropdown" href="#">
                         <img src="/demo/img/logout.png" class="d-inline-block align-top" alt="">
                     </a>
@@ -99,6 +99,21 @@
 
                 <!-- Boletim Operacional - SEM expansão -->
                 <li class="sidebar-nav-item">
+                    <a class="sidebar-nav-link collapsed " href="/layouts/dashboard.html">
+                        <span class="sidebar-nav-icon">
+                            <i data-feather="bar-chart"></i>
+                        </span>
+                        <span class="sidebar-nav-name">
+                            Dashboard
+                        </span>
+                        <span class="sidebar-nav-end">
+                        </span>
+                    </a>
+                </li>
+                <!-- ###### FINAL ###### -->
+
+                <!-- Dashboard - SEM expansão -->
+                <li class="sidebar-nav-item">
                     <a class="sidebar-nav-link collapsed" href="/layouts/boletim_operacional.html">
                         <span class="sidebar-nav-icon">
                             <i data-feather="bar-chart"></i>
@@ -112,39 +127,8 @@
                 </li>
                 <!-- ###### FINAL ###### -->
 
-                <!-- Dashboard - SEM expansão -->
-                <li class="sidebar-nav-item">
-                    <a class="sidebar-nav-link collapsed active" href="/layouts/consulta_status.html">
-                        <span class="sidebar-nav-icon">
-                            <i data-feather="bar-chart"></i>
-                        </span>
-                        <span class="sidebar-nav-name">
-                            Consulta de Status
-                        </span>
-                        <span class="sidebar-nav-end">
-                        </span>
-                    </a>
-                </li>
-                <!-- ###### FINAL ###### -->
-
 
                 <!-- Pesquisa de Satsifação - SEM expansão -->
-                <li class="sidebar-nav-item">
-                    <a class="sidebar-nav-link collapsed" href="/layouts/painel_agentes.html">
-                        <span class="sidebar-nav-icon">
-                            <i data-feather="bar-chart"></i>
-                        </span>
-                        <span class="sidebar-nav-name">
-                            Painel de Agentes
-                        </span>
-                        <span class="sidebar-nav-end">
-                        </span>
-                    </a>
-                </li>
-                <!-- ###### FINAL ###### -->
-
-
-                <!-- Pesquisa de Satsifação - URA - SEM expansão -->
                 <li class="sidebar-nav-item">
                     <a class="sidebar-nav-link collapsed" href="/layouts/pesquisa_satisfacao.html">
                         <span class="sidebar-nav-icon">
@@ -159,6 +143,66 @@
                 </li>
                 <!-- ###### FINAL ###### -->
 
+
+                <!-- Pesquisa de Satsifação - URA - SEM expansão -->
+                <li class="sidebar-nav-item">
+                    <a class="sidebar-nav-link collapsed" href="/layouts/pesquisa_satisfacao_ura.html">
+                        <span class="sidebar-nav-icon">
+                            <i data-feather="bar-chart"></i>
+                        </span>
+                        <span class="sidebar-nav-name">
+                            Pesquisa de Satisfação URA
+                        </span>
+                        <span class="sidebar-nav-end">
+                        </span>
+                    </a>
+                </li>
+                <!-- ###### FINAL ###### -->
+                
+                <!-- Pesquisa de Satsifação - URA - SEM expansão -->
+                <li class="sidebar-nav-item">
+                    <a class="sidebar-nav-link collapsed active" href="/layouts/relatorio_backlog.html">
+                        <span class="sidebar-nav-icon">
+                            <i data-feather="bar-chart"></i>
+                        </span>
+                        <span class="sidebar-nav-name">
+                            Relatório de Backlog
+                        </span>
+                        <span class="sidebar-nav-end">
+                        </span>
+                    </a>
+                </li>
+                <!-- ###### FINAL ###### -->
+                
+                <!-- Pesquisa de Satsifação - URA - SEM expansão -->
+                <li class="sidebar-nav-item">
+                    <a class="sidebar-nav-link collapsed" href="/layouts/book.html">
+                        <span class="sidebar-nav-icon">
+                            <i data-feather="bar-chart"></i>
+                        </span>
+                        <span class="sidebar-nav-name">
+                            Book
+                        </span>
+                        <span class="sidebar-nav-end">
+                        </span>
+                    </a>
+                </li>
+                <!-- ###### FINAL ###### -->
+                
+                <!-- Pesquisa de Satsifação - URA - SEM expansão -->
+                <li class="sidebar-nav-item">
+                    <a class="sidebar-nav-link collapsed" href="/layouts/book_v2.html">
+                        <span class="sidebar-nav-icon">
+                            <i data-feather="bar-chart"></i>
+                        </span>
+                        <span class="sidebar-nav-name">
+                            Book - V2
+                        </span>
+                        <span class="sidebar-nav-end">
+                        </span>
+                    </a>
+                </li>
+                <!-- ###### FINAL ###### -->          
 
             </ul>
         </div><!-- Sidebar Endi -->
@@ -178,7 +222,7 @@
                         <div class="embed-responsive embed-responsive-16by9">
 
 
-                            <iframe style="position:absolute;" src="https://app.powerbi.com/reportEmbed?reportId=da8908d7-38df-4750-a313-0487c020fbc3&autoAuth=true&ctid=5f006dac-15f2-4cb9-963f-ae4e6c14859c&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1iLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true">
+                            <iframe style="position:absolute;" src="https://app.powerbi.com/reportEmbed?reportId=d4877ee0-fa36-42f1-8a72-11f811fc9949&autoAuth=true&ctid=5f006dac-15f2-4cb9-963f-ae4e6c14859c&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1iLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true">
                             </iframe>
 
 

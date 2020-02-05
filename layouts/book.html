@@ -2,9 +2,14 @@
 <html lang="pt">
 
 <head>
-    <title>TIM OFFICE AUTOMATION - Power BI</title>
+    <title>BODYTECH - Power BI</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="../dist/css/adminx.css" media="screen" />
+    
+    <!-- this is only relevant for the demo -->
+    <link rel="stylesheet" href="../demo/demo.css">
     <link rel="stylesheet" type="text/css" href="./dist/css/adminx.css" media="screen" />
     <link rel="stylesheet" href="./demo/demo.css">    
     <link rel="apple-touch-icon" sizes="57x57" href="img/FAV/apple-icon-57x57.png">
@@ -26,14 +31,15 @@
     <meta name="theme-color" content="#00ffffff">
 
 
+
 </head>
 
 <body>
     <div class="adminx-container">
         <nav class="navbar navbar-expand justify-content-between fixed-top">
-            <a class="navbar-brand mb-0 h1 d-none d-md-block" href="index.html" style="font-weight: bold;">
-                <img src="./demo/img/logo.png" class="navbar-brand-image d-inline-block align-top mr-2" alt="">
-                TIM - OFFICE AUTOMATION
+            <a class="navbar-brand mb-0 h1 d-none d-md-block" href="../index.html" style="font-weight: bold;">
+                <img src="../demo/img/logo.png" class="navbar-brand-image d-inline-block align-top mr-2" alt="">
+                BODYTECH
             </a>
 
 
@@ -42,7 +48,7 @@
                     <div class="input-group-prepend">
                     </div>
                     <span class="navbar-brand mb-0 h1 d-none d-md-block" style="font-weight: bold;">
-                        INÍCIO
+                        Book
                     </span>
                 </div>
             </form>
@@ -72,10 +78,11 @@
         <!-- Sidebar -->
         <div class="adminx-sidebar expand-hover push">
             <ul class="sidebar-nav">
-                
-                 <!-- Início -->
-                <li class="sidebar-nav-item ">
-                    <a href="../index.html" class="sidebar-nav-link active">
+
+
+                <!-- Início -->
+                <li class="sidebar-nav-item">
+                    <a href="../index.html" class="sidebar-nav-link ">
                         <span class="sidebar-nav-icon">
                             <i data-feather="home"></i>
                         </span>
@@ -89,7 +96,8 @@
                 </li>
                 <!-- ###### FINAL ###### -->
 
-<!-- Boletim Operacional - SEM expansão -->
+
+                <!-- Boletim Operacional - SEM expansão -->
                 <li class="sidebar-nav-item">
                     <a class="sidebar-nav-link collapsed " href="/layouts/dashboard.html">
                         <span class="sidebar-nav-icon">
@@ -106,7 +114,7 @@
 
                 <!-- Dashboard - SEM expansão -->
                 <li class="sidebar-nav-item">
-                    <a class="sidebar-nav-link collapsed active" href="/layouts/boletim_operacional.html">
+                    <a class="sidebar-nav-link collapsed" href="/layouts/boletim_operacional.html">
                         <span class="sidebar-nav-icon">
                             <i data-feather="bar-chart"></i>
                         </span>
@@ -168,7 +176,7 @@
                 
                 <!-- Pesquisa de Satsifação - URA - SEM expansão -->
                 <li class="sidebar-nav-item">
-                    <a class="sidebar-nav-link collapsed" href="/layouts/book.html">
+                    <a class="sidebar-nav-link collapsed active" href="/layouts/book.html">
                         <span class="sidebar-nav-icon">
                             <i data-feather="bar-chart"></i>
                         </span>
@@ -196,68 +204,31 @@
                 </li>
                 <!-- ###### FINAL ###### -->          
 
-
-               
-
             </ul>
         </div><!-- Sidebar Endi -->
 
         <!-- adminx-content-aside -->
         <div class="adminx-content">
+            <!-- <div class="adminx-aside">
+
+        </div> -->
+
             <div class="adminx-main-content">
                 <div class="container-fluid">
-                    <!-- BreadCrumb -->
 
-                    <div class="pb-3">
-                        <h1>Dashboard</h1>
-                    </div>
 
                     <div class="row">
-                        <div class="col-md-6 col-lg-3 d-flex">
-                            <div class="card mb-grid w-100">
-                                <div class="card-body d-flex flex-column">
-                                    <div class="d-flex justify-content-between mb-3">
-                                        <h5 class="card-title mb-0">
-                                            Teste
-                                        </h5>
 
-                                        <div class="card-title-sub">
-                                            75%
-                                        </div>
-                                    </div>
+                        <div class="embed-responsive embed-responsive-16by9">
 
-                                    <div class="progress mt-auto">
-                                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">3/4</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="col-md-6 col-lg-3 d-flex">
-                            <div class="card mb-grid w-100">
-                                <div class="card-body ">
-                                    <div class="">
-                                        <h5 >
-                                            Open Tasks
-                                        </h5>                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            <iframe style="position:absolute;" src="https://app.powerbi.com/reportEmbed?reportId=d4877ee0-fa36-42f1-8a72-11f811fc9949&autoAuth=true&ctid=5f006dac-15f2-4cb9-963f-ae4e6c14859c&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1iLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true">
+                            </iframe>
 
-                        
-
-                        
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-8">
-
-                        </div>
-                        <div class="col-lg-4">
 
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -267,13 +238,13 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-    <script src="./dist/js/vendor.js"></script>
-    <script src="./dist/js/adminx.js"></script>
+    <script src="../dist/js/vendor.js"></script>
+    <script src="../dist/js/adminx.js"></script>
     <script src="/bower_components/powerbi-client/dist/powerbi.js"></script>
 
     <!-- If you prefer vanilla JS these are the only required scripts -->
     <!-- script src="./dist/js/vendor.js"></script> -->
-    <script src="./dist/js/adminx.vanilla.js"></script>
+    <script src="../dist/js/adminx.vanilla.js"></script>
 
 
 
@@ -283,6 +254,4 @@
 
 
 
-</body>
-
-</html>
+</body></html>
